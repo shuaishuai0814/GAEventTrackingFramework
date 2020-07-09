@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		068861BDD32909718A35DAD5 /* Pods-GAEventTrackingFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAEventTrackingFramework_Tests.release.xcconfig"; path = "Target Support Files/Pods-GAEventTrackingFramework_Tests/Pods-GAEventTrackingFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		17922AF0C77D0B1BC65F6C1B /* GAEventTrackingFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GAEventTrackingFramework.podspec; path = ../GAEventTrackingFramework.podspec; sourceTree = "<group>"; };
-		1DC1A8E63826DA02530A5468 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		17922AF0C77D0B1BC65F6C1B /* GAEventTrackingFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GAEventTrackingFramework.podspec; path = ../GAEventTrackingFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1DC1A8E63826DA02530A5468 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5E26FFD390F7D4A1CB65868D /* Pods_GAEventTrackingFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GAEventTrackingFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* GAEventTrackingFramework_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GAEventTrackingFramework_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92A12059DF8BFA42F47D18E1 /* Pods-GAEventTrackingFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAEventTrackingFramework_Example.debug.xcconfig"; path = "Target Support Files/Pods-GAEventTrackingFramework_Example/Pods-GAEventTrackingFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D4F8A9487DD4C5CF6ED48434 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D4F8A9487DD4C5CF6ED48434 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E8A81D87308CDB216BA5C498 /* Pods-GAEventTrackingFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAEventTrackingFramework_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GAEventTrackingFramework_Tests/Pods-GAEventTrackingFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				E8A81D87308CDB216BA5C498 /* Pods-GAEventTrackingFramework_Tests.debug.xcconfig */,
 				068861BDD32909718A35DAD5 /* Pods-GAEventTrackingFramework_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,16 @@
+PODS:
+  - GAEventTrackingFramework (0.1.0)
+
+DEPENDENCIES:
+  - GAEventTrackingFramework (from `../`)
+
+EXTERNAL SOURCES:
+  GAEventTrackingFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GAEventTrackingFramework: 1cad93fff626e4da1b3c6ded814dc91dd0304d5a
+
+PODFILE CHECKSUM: 5c37c53deb128affbf2aabb1b0d6a9e0ebdbf146
+
+COCOAPODS: 1.9.3
