@@ -30,7 +30,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'GAEventTrackingFramework/Classes/**/*'
+  s.vendored_frameworks = 'GAEventTrackingFramework/Frameworks/GAEventTracking.framework'
+  s.source_files = 'GAEventTrackingFramework/Classes/**/*', 'GAEventTrackingFramework/Frameworks/GAEventTracking.framework/Headers/*.h'   
   
   # s.resource_bundles = {
   #   'GAEventTrackingFramework' => ['GAEventTrackingFramework/Assets/*.png']
@@ -38,5 +39,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking'
 end

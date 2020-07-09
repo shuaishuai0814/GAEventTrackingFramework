@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		58E72210E18A191C2FB2C035 /* Pods_GAEventTrackingFramework_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6499EE8A210B290980A28DE6 /* Pods_GAEventTrackingFramework_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		D37A2893F7981F7F714EA581 /* Pods_GAEventTrackingFramework_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E26FFD390F7D4A1CB65868D /* Pods_GAEventTrackingFramework_Tests.framework */; };
+		916DFAE1670CF07ED9240B50 /* Pods_GAEventTrackingFramework_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8543B89E63C2FED6D7EED61C /* Pods_GAEventTrackingFramework_Tests.framework */; };
+		CB35F1F8D83FE25E1116ED39 /* Pods_GAEventTrackingFramework_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D88AAFBD5D02C9A41AC8E9 /* Pods_GAEventTrackingFramework_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 		068861BDD32909718A35DAD5 /* Pods-GAEventTrackingFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAEventTrackingFramework_Tests.release.xcconfig"; path = "Target Support Files/Pods-GAEventTrackingFramework_Tests/Pods-GAEventTrackingFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		17922AF0C77D0B1BC65F6C1B /* GAEventTrackingFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GAEventTrackingFramework.podspec; path = ../GAEventTrackingFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1DC1A8E63826DA02530A5468 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5E26FFD390F7D4A1CB65868D /* Pods_GAEventTrackingFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GAEventTrackingFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* GAEventTrackingFramework_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GAEventTrackingFramework_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,9 +59,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6499EE8A210B290980A28DE6 /* Pods_GAEventTrackingFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GAEventTrackingFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BABD502E242C4B4FE187AA5 /* Pods-GAEventTrackingFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAEventTrackingFramework_Example.release.xcconfig"; path = "Target Support Files/Pods-GAEventTrackingFramework_Example/Pods-GAEventTrackingFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
+		70D88AAFBD5D02C9A41AC8E9 /* Pods_GAEventTrackingFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GAEventTrackingFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8543B89E63C2FED6D7EED61C /* Pods_GAEventTrackingFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GAEventTrackingFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92A12059DF8BFA42F47D18E1 /* Pods-GAEventTrackingFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAEventTrackingFramework_Example.debug.xcconfig"; path = "Target Support Files/Pods-GAEventTrackingFramework_Example/Pods-GAEventTrackingFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D4F8A9487DD4C5CF6ED48434 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				58E72210E18A191C2FB2C035 /* Pods_GAEventTrackingFramework_Example.framework in Frameworks */,
+				CB35F1F8D83FE25E1116ED39 /* Pods_GAEventTrackingFramework_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				D37A2893F7981F7F714EA581 /* Pods_GAEventTrackingFramework_Tests.framework in Frameworks */,
+				916DFAE1670CF07ED9240B50 /* Pods_GAEventTrackingFramework_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				6499EE8A210B290980A28DE6 /* Pods_GAEventTrackingFramework_Example.framework */,
-				5E26FFD390F7D4A1CB65868D /* Pods_GAEventTrackingFramework_Tests.framework */,
+				70D88AAFBD5D02C9A41AC8E9 /* Pods_GAEventTrackingFramework_Example.framework */,
+				8543B89E63C2FED6D7EED61C /* Pods_GAEventTrackingFramework_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				CF87666076FD0DAA13AB6541 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,6 +246,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = shuaishuai0814;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = LAL2A6SL32;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -315,24 +317,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CF87666076FD0DAA13AB6541 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GAEventTrackingFramework_Example/Pods-GAEventTrackingFramework_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GAEventTrackingFramework/GAEventTrackingFramework.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GAEventTrackingFramework.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GAEventTrackingFramework_Example/Pods-GAEventTrackingFramework_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DA13A0AA1FB541EBC13098A6 /* [CP] Check Pods Manifest.lock */ = {
@@ -494,6 +478,7 @@
 			baseConfigurationReference = 92A12059DF8BFA42F47D18E1 /* Pods-GAEventTrackingFramework_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LAL2A6SL32;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GAEventTrackingFramework/GAEventTrackingFramework-Prefix.pch";
 				INFOPLIST_FILE = "GAEventTrackingFramework/GAEventTrackingFramework-Info.plist";
@@ -501,6 +486,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -510,6 +496,7 @@
 			baseConfigurationReference = 6BABD502E242C4B4FE187AA5 /* Pods-GAEventTrackingFramework_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LAL2A6SL32;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GAEventTrackingFramework/GAEventTrackingFramework-Prefix.pch";
 				INFOPLIST_FILE = "GAEventTrackingFramework/GAEventTrackingFramework-Info.plist";
@@ -517,6 +504,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

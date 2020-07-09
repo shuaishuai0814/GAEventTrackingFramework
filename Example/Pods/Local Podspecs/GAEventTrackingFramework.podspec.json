@@ -1,8 +1,8 @@
 {
   "name": "GAEventTrackingFramework",
   "version": "0.1.0",
-  "summary": "A short description of GAEventTrackingFramework.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "埋点组件 Framework 工程 GAEventTrackingFramework.",
+  "description": "Gaia 埋点组件 Framework 工程.",
   "homepage": "https://github.com/shuaishuai0814/GAEventTrackingFramework",
   "license": {
     "type": "MIT",
@@ -16,7 +16,11 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "GAEventTrackingFramework/Classes/**/*"
+  "vendored_frameworks": "GAEventTrackingFramework/Frameworks/GAEventTracking.framework",
+  "source_files": [
+    "GAEventTrackingFramework/Classes/**/*",
+    "GAEventTrackingFramework/Frameworks/GAEventTracking.framework/Headers/*.h"
+  ]
 }
